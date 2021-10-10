@@ -1,0 +1,613 @@
+[
+	{
+        "name": "Scattergun",
+		"icon": "https://wiki.teamfortress.com/w/images/thumb/1/1b/Item_icon_Scattergun.png/100px-Item_icon_Scattergun.png",
+        "backpack_icon": "https://wiki.teamfortress.com/w/images/7/74/Backpack_Scattergun.png",
+        "level": "Level 1 Scattergun",
+        "class": "scout",
+		"slot": 0,
+		"attributes": []
+    },
+	{
+        "name": "Austrailium Scattergun",
+		"icon": "./assets/images/icons/aussies/Scattergun.png",
+        "backpack_icon": "./assets/images/weapons/aussies/Scattergun.png",
+        "level": "Level 1 Scattergun",
+        "class": "scout",
+		"slot": 0,
+		"attributes": []
+    },
+	{
+        "name": "Force-A-Nature",
+		"icon": "https://wiki.teamfortress.com/w/images/thumb/e/ed/Item_icon_Force-A-Nature.png/100px-Item_icon_Force-A-Nature.png",
+        "backpack_icon": "https://wiki.teamfortress.com/w/images/b/bc/Backpack_Force-A-Nature.png",
+        "level": "Level 10 Scattergun",
+        "class": "scout",
+		"slot": 0,
+		"attributes": [
+            "+ +50% faster firing speed",
+            "+ Knockback on the target and shooter",
+            "+ +20% bullets per shot",
+            "- -10% damage penalty",
+            "- -66% clip size"
+        ]
+    },
+	{
+        "name": "Austrailium Force-A-Nature",
+		"icon": "./assets/images/icons/aussies/Force-A-Nature.png",
+        "backpack_icon": "./assets/images/weapons/aussies/Force-A-Nature.png",
+        "level": "Level 10 Scattergun",
+        "class": "scout",
+		"slot": 0,
+		"attributes": [
+            "+ +50% faster firing speed",
+            "+ Knockback on the target and shooter",
+            "+ +20% bullets per shot",
+            "- -10% damage penalty",
+            "- -66% clip size"
+        ]
+    },
+    {
+        "name": "Shortstop",
+		"icon": "https://wiki.teamfortress.com/w/images/thumb/8/84/Item_icon_Shortstop.png/100px-Item_icon_Shortstop.png",
+        "backpack_icon": "https://wiki.teamfortress.com/w/images/c/cd/Backpack_Shortstop.png",
+        "level": "Level 1 Peppergun",
+        "class": "scout",
+		"slot": 0,
+		"attributes": [
+            " When weapon is active: ",
+            "- Increase in push force taken from damage and airblast",
+            "Holds a 4-shot clip and reloads its entire clip at once.",
+			"Alt-Fire to reach and shove someone!",
+			"Mann Co.'s latest in high attitude break-action personal defense."
+        ]
+    },
+    {
+        "name": "Soda Popper",
+		"icon": "https://wiki.teamfortress.com/w/images/thumb/f/f1/Item_icon_Soda_Popper.png/100px-Item_icon_Soda_Popper.png",
+        "backpack_icon": "https://wiki.teamfortress.com/w/images/8/86/Backpack_Soda_Popper.png",
+        "level": "Level 10 Scattergun",
+        "class": "scout",
+		"slot": 0,
+		"attributes": [
+            "+ +50% faster firing speed",
+            "+ 25% faster reload time",
+            "+ On Hit: Builds Hype",
+            "- -66% clip size",
+            "When Hype is full, Alt-Fire to activate Hype mode for multiple air jumps.This weapon reloads its entire clip at once."
+        ]
+    },
+	{
+        "name": "Baby Face's Blaster",
+		"icon": "https://wiki.teamfortress.com/w/images/thumb/e/e6/Item_icon_Baby_Face%27s_Blaster.png/100px-Item_icon_Baby_Face%27s_Blaster.png",
+        "backpack_icon": "https://wiki.teamfortress.com/w/images/7/77/Backpack_Baby_Face%27s_Blaster.png",
+        "level": "Level 10 Scattergun",
+        "class": "scout",
+		"slot": 0,
+		"attributes": [
+            "+ On Hit: Builds Boost",
+            "+ Run speed increased with Boost",
+            "- -34% clip size",
+            "- 10% slower move speed on wearer",
+            "- Boost reduced on air jumps",
+            "- Boost reduced when hit"
+        ]
+    },
+	{
+        "name": "Pistol",
+		"icon": "https://wiki.teamfortress.com/w/images/thumb/5/52/Item_icon_Pistol.png/100px-Item_icon_Pistol.png",
+        "backpack_icon": "https://wiki.teamfortress.com/w/images/thumb/f/f0/Backpack_Pistol.png/90px-Backpack_Pistol.png",
+        "level": "Level 1 Pistol",
+        "class": "scout",
+		"slot": 1,
+		"attributes": []
+    },
+	{
+        "name": "Lugermorph",
+		"icon": "https://wiki.teamfortress.com/w/images/thumb/8/86/Item_icon_Lugermorph.png/100px-Item_icon_Lugermorph.png",
+        "backpack_icon": "https://wiki.teamfortress.com/w/images/7/75/Backpack_Lugermorph.png",
+        "level": "Level 5 Pistol",
+        "class": "scout",
+		"slot": 1,
+		"attributes": [
+            "The ultimate in semi-concealed weaponry.",
+			"There's no question you need this gun, the only question is: where will you keep it?",
+            "( Achievement Item: Not Tradable or Marketable )"
+        ]
+    },
+    {
+        "name": "C.A.P.P.E.R",
+		"icon": "https://wiki.teamfortress.com/w/images/thumb/a/a6/Item_icon_C.A.P.P.E.R.png/100px-Item_icon_C.A.P.P.E.R.png",
+        "backpack_icon": "https://wiki.teamfortress.com/w/images/c/ce/Backpack_C.A.P.P.E.R.png",
+        "level": "Level 1 Pistol",
+        "class": "scout",
+		"slot": 1,
+		"attributes": [
+            "Turn your enemies in to ash!"
+        ]
+    },
+    {
+        "name": "Winger",
+		"icon": "https://wiki.teamfortress.com/w/images/thumb/4/4e/Item_icon_Winger.png/100px-Item_icon_Winger.png",
+        "backpack_icon": "https://wiki.teamfortress.com/w/images/5/5b/Backpack_Winger.png",
+        "level": "Level 15 Pistol",
+        "class": "scout",
+		"slot": 1,
+		"attributes": [
+            "+ +15% damage bonus",
+            "+ +25% greater jump height when active",
+            "- -60% clip size"
+        ]
+    },
+    {
+        "name": "Pretty Boy's Pocket Pistol",
+		"icon": "https://wiki.teamfortress.com/w/images/thumb/f/f6/Item_icon_Pretty_Boy%27s_Pocket_Pistol.png/100px-Item_icon_Pretty_Boy%27s_Pocket_Pistol.png",
+        "backpack_icon": "https://wiki.teamfortress.com/w/images/8/8d/Backpack_Pretty_Boy%27s_Pocket_Pistol.png",
+        "level": "Level 10 Pistol",
+        "class": "scout",
+		"slot": 1,
+		"attributes": [
+            " When weapon is active: ",
+            "+ +15% faster firing speed",
+            "+ On Hit: Gain up to +3 health",
+            "- -25% clip size"
+        ]
+    },
+    {
+        "name": "Flying Guillotine",
+		"icon": "https://wiki.teamfortress.com/w/images/thumb/5/5a/Item_icon_Flying_Guillotine.png/100px-Item_icon_Flying_Guillotine.png",
+        "backpack_icon": "https://wiki.teamfortress.com/w/images/a/a1/Backpack_Flying_Guillotine.png",
+        "level": "Level 100 Cleaver",
+        "class": "scout",
+		"slot": 1,
+		"attributes": [
+            "+ Throw at your enemies to make them bleed! Long distance hits reduce recharge time",
+            "- No random critical hits"
+        ]
+    },
+    {
+        "name": "Bonk! Atomic Punch",
+		"icon": "https://wiki.teamfortress.com/w/images/thumb/8/8f/Item_icon_Bonk%21_Atomic_Punch.png/100px-Item_icon_Bonk%21_Atomic_Punch.png",
+        "backpack_icon": "https://wiki.teamfortress.com/w/images/5/55/Backpack_Bonk%21_Atomic_Punch.png",
+        "level": "Level 5 Lunch Box",
+        "class": "scout",
+		"slot": 1,
+		"attributes": [
+            "Drink to become invulnerable for 8 seconds. Cannot attack during this time.",
+			"Damage absorbed will slow you when the effect ends."
+        ]
+    },
+    {
+        "name": "Crit-a-Cola",
+		"icon": "https://wiki.teamfortress.com/w/images/thumb/a/ae/Item_icon_Crit-a-Cola.png/100px-Item_icon_Crit-a-Cola.png",
+        "backpack_icon": "https://wiki.teamfortress.com/w/images/0/07/Backpack_Crit-a-Cola.png",
+        "level": "Level 5 Lunch Box",
+        "class": "scout",
+		"slot": 1,
+		"attributes": [
+            " While effect is active: each attack mini-crits and sets Mark-For-Death for 5 seconds. "
+        ]
+    },
+    {
+        "name": "Mad Milk",
+		"icon": "https://wiki.teamfortress.com/w/images/thumb/5/56/Item_icon_Mad_Milk.png/100px-Item_icon_Mad_Milk.png",
+        "backpack_icon": "https://wiki.teamfortress.com/w/images/0/0e/Backpack_Mad_Milk.png",
+        "level": "Level 5 Non-Milk Substance",
+        "class": "scout",
+		"slot": 1,
+		"attributes": [
+            "+ Extinguishing teammates reduces cooldown by -20%",
+            "Players heal 60% of the damage done to an enemy covered with milk. Can be used to extinguish fires."
+        ]
+    },
+    {
+        "name": "Mutated Milk",
+		"icon": "https://wiki.teamfortress.com/w/images/thumb/b/bd/Item_icon_Mutated_Milk.png/100px-Item_icon_Mutated_Milk.png",
+        "backpack_icon": "https://wiki.teamfortress.com/w/images/b/b8/Backpack_Mutated_Milk.png",
+        "level": "Limited Level 99 Non-Milk Substance",
+        "class": "scout",
+		"slot": 1,
+		"attributes": [
+            "+ Extinguishing teammates reduces cooldown by -20%",
+            "Players heal 60% of the damage done to an enemy covered with milk. Can be used to extinguish fires.",
+			"Inspired by the TF2 Movie 'Expiration Date'"
+        ]
+    },
+    {
+        "name": "Bat",
+		"icon": "https://wiki.teamfortress.com/w/images/thumb/b/b5/Item_icon_Bat.png/100px-Item_icon_Bat.png",
+        "backpack_icon": "https://wiki.teamfortress.com/w/images/d/d1/Backpack_Bat.png",
+        "level": "Level 1 Bat",
+        "class": "scout",
+		"slot": 2,
+		"attributes": []
+    },
+    {
+        "name": "Holy Mackerel",
+		"icon": "https://wiki.teamfortress.com/w/images/thumb/8/86/Item_icon_Holy_Mackerel.png/100px-Item_icon_Holy_Mackerel.png",
+        "backpack_icon": "https://wiki.teamfortress.com/w/images/4/42/Backpack_Holy_Mackerel.png",
+        "level": "Level 42 Fish",
+        "class": "scout",
+		"slot": 2,
+		"attributes": [
+			"Getting hit by a fish has got to be humiliating."
+		]
+    },
+    {
+        "name": "Unarmed Combat",
+		"icon": "https://wiki.teamfortress.com/w/images/thumb/9/96/Item_icon_Unarmed_Combat.png/100px-Item_icon_Unarmed_Combat.png",
+        "backpack_icon": "https://wiki.teamfortress.com/w/images/4/49/Backpack_Unarmed_Combat.png",
+        "level": "Level 100 Severed Arm",
+        "class": "scout",
+		"slot": 2,
+		"attributes": [
+			"So nice of the Spy to lend an arm..."
+		]
+    },
+    {
+        "name": "Batsaber",
+		"icon": "https://wiki.teamfortress.com/w/images/thumb/e/ef/Item_icon_Batsaber.png/100px-Item_icon_Batsaber.png",
+        "backpack_icon": "https://wiki.teamfortress.com/w/images/f/f5/Backpack_Batsaber.png",
+        "level": "Level 1 Bat",
+        "class": "scout",
+		"slot": 2,
+		"attributes": [
+			"Energy Overwhelming!",
+			"Disintegrate your enemies!"
+		]
+    },
+    {
+        "name": "Sandman",
+		"icon": "https://wiki.teamfortress.com/w/images/thumb/7/70/Item_icon_Sandman.png/100px-Item_icon_Sandman.png",
+        "backpack_icon": "https://wiki.teamfortress.com/w/images/f/f5/Backpack_Sandman.png",
+        "level": "Level 15 Bat",
+        "class": "scout",
+		"slot": 2,
+		"attributes": [
+			"+ Alt-Fire: Launches a ball that slows opponents",
+			"- -15 max health on wearer"
+		]
+    },
+    {
+        "name": "Candy Cane",
+		"icon": "https://wiki.teamfortress.com/w/images/thumb/0/05/Item_icon_Candy_Cane.png/100px-Item_icon_Candy_Cane.png",
+        "backpack_icon": "https://wiki.teamfortress.com/w/images/1/12/Backpack_Candy_Cane.png",
+        "level": "Level 25 Bat",
+        "class": "scout",
+		"slot": 2,
+		"attributes": [
+			"+ On Kill: A small health pack is dropped",
+			"- 25% explosive damage vulnerability on wearer"
+		]
+    },
+    {
+        "name": "Boston Basher",
+		"icon": "https://wiki.teamfortress.com/w/images/thumb/b/b5/Item_icon_Boston_Basher.png/100px-Item_icon_Boston_Basher.png",
+        "backpack_icon": "https://wiki.teamfortress.com/w/images/4/4f/Backpack_Boston_Basher.png",
+        "level": "Level 25 Bat",
+        "class": "scout",
+		"slot": 2,
+		"attributes": [
+			"+ On Hit: Bleed for 5 seconds",
+			"- On Miss: Hit yourself. Idiot."
+		]
+    },
+    {
+        "name": "Three-Rune Blade",
+		"icon": "https://wiki.teamfortress.com/w/images/thumb/f/f6/Item_icon_Three-Rune_Blade.png/100px-Item_icon_Three-Rune_Blade.png",
+        "backpack_icon": "https://wiki.teamfortress.com/w/images/a/a1/Backpack_Three-Rune_Blade.png",
+        "level": "Level 10 Sword",
+        "class": "scout",
+		"slot": 2,
+		"attributes": [
+			"+ On Hit: Bleed for 5 seconds",
+			"- On Miss: Hit yourself. Idiot."
+		]
+    },
+    {
+        "name": "Sun-on-a-Stick",
+		"icon": "https://wiki.teamfortress.com/w/images/thumb/0/06/Item_icon_Sun-on-a-Stick.png/100px-Item_icon_Sun-on-a-Stick.png",
+        "backpack_icon": "https://wiki.teamfortress.com/w/images/3/36/Backpack_Sun-on-a-Stick.png",
+        "level": "Level 10 RIFT Fire Mace",
+        "class": "scout",
+		"slot": 2,
+		"attributes": [
+			"+ 100% critical hit vs burning players",
+			"+ +25% fire damage resistance while deployed",
+			"- -25% damage penalty",
+			"Spiky end goes into other man."
+		]
+    },
+    {
+        "name": "Fan O'War",
+		"icon": "https://wiki.teamfortress.com/w/images/thumb/f/f4/Item_icon_Fan_O%27War.png/100px-Item_icon_Fan_O%27War.png",
+        "backpack_icon": "https://wiki.teamfortress.com/w/images/4/44/Backpack_Fan_O%27War.png",
+        "level": "Level 5 Gunbai",
+        "class": "scout",
+		"slot": 2,
+		"attributes": [
+			"+ Crits whenever it would normally mini-crit",
+			"+ On Hit: One target at a time is Marked-For-Death, causing all damage taken to be mini-crits",
+			"- -75% damage penalty",
+			"Winds of Gravel Pit ",
+			"Scout brings on his deadly fan!",
+			"You are Marked-For-Death"
+		]
+    },
+    {
+        "name": "Atomizer",
+		"icon": "https://wiki.teamfortress.com/w/images/thumb/2/29/Item_icon_Atomizer.png/100px-Item_icon_Atomizer.png",
+        "backpack_icon": "https://wiki.teamfortress.com/w/images/2/25/Backpack_Atomizer.png",
+        "level": "Level 10 Bat",
+        "class": "scout",
+		"slot": 2,
+		"attributes": [
+			"+ Grants Triple Jump while deployed",
+			"+ Melee attacks mini-crit while airborne.",
+			"- -15% damage vs players",
+			"- This weapon deploys 50% slower"
+		]
+    },
+    {
+        "name": "Wrap Assassin",
+		"icon": "https://wiki.teamfortress.com/w/images/thumb/6/6b/Item_icon_Wrap_Assassin.png/100px-Item_icon_Wrap_Assassin.png",
+        "backpack_icon": "https://wiki.teamfortress.com/w/images/d/de/Backpack_Wrap_Assassin.png",
+        "level": "Level 15 Bat",
+        "class": "scout",
+		"slot": 2,
+		"attributes": [
+			"+ +25% increase in recharge rate",
+			"+ Alt-Fire: Launches a festive ornament that shatters causing bleed",
+			"- -65% damage penalty",
+			"These lovely festive ornaments are so beautifully crafted, your enemies are going to want to see them close up. ",
+			"Indulge them by batting those fragile glass bulbs into their eyes at 90 mph."
+		]
+    },
+    {
+        "name": "Rocket Launcher",
+		"icon": "https://wiki.teamfortress.com/w/images/thumb/f/fe/Item_icon_Rocket_Launcher.png/100px-Item_icon_Rocket_Launcher.png",
+        "backpack_icon": "https://wiki.teamfortress.com/w/images/1/1d/Backpack_Rocket_Launcher.png",
+        "level": "Level 1 Rocket Launcher",
+        "class": "soldier",
+		"slot": 0,
+		"attributes": []
+    },
+    {
+        "name": "Original",
+		"icon": "https://wiki.teamfortress.com/w/images/thumb/8/88/Item_icon_Original.png/100px-Item_icon_Original.png",
+        "backpack_icon": "https://wiki.teamfortress.com/w/images/2/24/Backpack_Original.png",
+        "level": "Level 5 Rocket Launcher",
+        "class": "soldier",
+		"slot": 0,
+		"attributes": []
+    },
+    {
+        "name": "Direct Hit",
+		"icon": "https://wiki.teamfortress.com/w/images/thumb/e/e7/Item_icon_Direct_Hit.png/100px-Item_icon_Direct_Hit.png",
+        "backpack_icon": "https://wiki.teamfortress.com/w/images/b/bc/Backpack_Direct_Hit.png",
+        "level": "Level 1 Rocket Launcher",
+        "class": "soldier",
+		"slot": 0,
+		"attributes": [
+			"+ +25% damage bonus",
+			"+ +80% projectile speed",
+			"+ Mini-crits targets launched airborne by explosions, grapple hooks or rocket packs.",
+			"- -70% explosion radius"
+		]
+    },
+    {
+        "name": "Black Box",
+		"icon": "https://wiki.teamfortress.com/w/images/thumb/d/d2/Item_icon_Black_Box.png/100px-Item_icon_Black_Box.png",
+        "backpack_icon": "https://wiki.teamfortress.com/w/images/7/7e/Backpack_Black_Box.png",
+        "level": "Level 5 Rocket Launcher",
+        "class": "soldier",
+		"slot": 0,
+		"attributes": [
+			"+ On Hit: Gain up to +20 health per attack",
+			"- -25% clip size"
+		]
+    },
+    {
+        "name": "Rocket Jumper",
+		"icon": "https://wiki.teamfortress.com/w/images/thumb/5/53/Item_icon_Rocket_Jumper.png/100px-Item_icon_Rocket_Jumper.png",
+        "backpack_icon": "https://wiki.teamfortress.com/w/images/8/88/Backpack_Rocket_Jumper.png",
+        "level": "Level 1 Rocket Launcher",
+        "class": "soldier",
+		"slot": 0,
+		"attributes": [
+			"+ +200% max primary ammo on wearer",
+			"+ No self inflicted blast damage taken",
+			"- -100% damage penalty",
+			"- No random critical hits",
+			"- Wearer cannot carry the intelligence briefcase or PASS Time JACK",
+			"A special rocket launcher for learning rocket jump tricks and patterns. ",
+			"This weapon deals ZERO damage."
+		]
+    },
+    {
+        "name": "Liberty Launcher",
+		"icon": "https://wiki.teamfortress.com/w/images/thumb/2/24/Item_icon_Liberty_Launcher.png/100px-Item_icon_Liberty_Launcher.png",
+        "backpack_icon": "https://wiki.teamfortress.com/w/images/1/1e/Backpack_Liberty_Launcher.png",
+        "level": "Level 25 Rocket Launcher",
+        "class": "soldier",
+		"slot": 0,
+		"attributes": [
+			"+ +25% clip size",
+			"+ +40% projectile speed",
+			"+ -25% blast damage from rocket jumps",
+			"- -25% damage penalty"
+		]
+    },
+    {
+        "name": "Cow Mangler 5000",
+		"icon": "https://wiki.teamfortress.com/w/images/thumb/4/46/Item_icon_Cow_Mangler_5000.png/100px-Item_icon_Cow_Mangler_5000.png",
+        "backpack_icon": "https://wiki.teamfortress.com/w/images/9/95/Backpack_Cow_Mangler_5000.png",
+        "level": "Level 30 Focused Wave Projector",
+        "class": "soldier",
+		"slot": 0,
+		"attributes": [
+			"+ Does not require ammo",
+			"+ Alt-Fire: A charged shot that mini-crits players, sets them on fire and disables buildings for 4 sec",
+			"- No random critical hits",
+			"- Deals only 20% damage to buildings",
+			"- Minicrits whenever it would normally crit"
+		]
+    },
+    {
+        "name": "Beggar's Bazooka",
+		"icon": "https://wiki.teamfortress.com/w/images/thumb/7/77/Item_icon_Beggar%27s_Bazooka.png/100px-Item_icon_Beggar%27s_Bazooka.png",
+        "backpack_icon": "https://wiki.teamfortress.com/w/images/8/83/Backpack_Beggar%27s_Bazooka.png",
+        "level": "Level 1 Rocket Launcher",
+        "class": "soldier",
+		"slot": 0,
+		"attributes": [
+			"+ Hold Fire to load up to three rockets",
+			"+ Release Fire to unleash the barrage",
+			"- -20% explosion radius",
+			"- +3 degrees random projectile deviation",
+			"- Overloading the chamber will cause a misfire",
+			"- No ammo from dispensers when active"
+		]
+    },
+    {
+        "name": "Air Strike",
+		"icon": "https://wiki.teamfortress.com/w/images/thumb/f/f8/Item_icon_Air_Strike.png/100px-Item_icon_Air_Strike.png",
+        "backpack_icon": "https://wiki.teamfortress.com/w/images/6/68/Backpack_Air_Strike.png",
+        "level": "Level 1 Rocket Launcher",
+        "class": "soldier",
+		"slot": 0,
+		"attributes": [
+			"+ -15% blast damage from rocket jumps",
+			"+ Increased attack speed and smaller blast radius while blast jumping",
+			"+ Clip size increased on kill",
+			"- -15% damage penalty",
+			"- -10% explosion radius"
+		]
+    },
+    {
+        "name": "Shotgun",
+		"icon": "https://wiki.teamfortress.com/w/images/thumb/5/5f/Item_icon_Shotgun.png/100px-Item_icon_Shotgun.png",
+        "backpack_icon": "https://wiki.teamfortress.com/w/images/c/c9/Backpack_Shotgun.png",
+        "level": "Level 1 Shotgun",
+        "class": "soldier",
+		"slot": 1,
+		"attributes": []
+    },
+    {
+        "name": "Reserve Shooter",
+		"icon": "https://wiki.teamfortress.com/w/images/thumb/3/34/Item_icon_Reserve_Shooter.png/100px-Item_icon_Reserve_Shooter.png",
+        "backpack_icon": "https://wiki.teamfortress.com/w/images/0/0f/Backpack_Reserve_Shooter.png",
+        "level": "Level 1 Shotgun",
+        "class": "soldier",
+		"slot": 1,
+		"attributes": [
+			"+ Mini-crits targets launched airborne by explosions, grapple hooks or rocket packs",
+			"+ This weapon deploys 20% faster",
+			"- -34% clip size"
+		]
+    },
+    {
+        "name": "Buff Banner",
+		"icon": "https://wiki.teamfortress.com/w/images/thumb/7/7c/Item_icon_Buff_Banner.png/100px-Item_icon_Buff_Banner.png",
+        "backpack_icon": "https://wiki.teamfortress.com/w/images/7/73/Backpack_Buff_Banner.png",
+        "level": "Level 5 Battle Banner",
+        "class": "soldier",
+		"slot": 1,
+		"attributes": [
+			"Provides an offensive buff that causes nearby team members to do mini-crits. ",
+			"Rage increases through damage done."
+		]
+    },
+    {
+        "name": "Gunboats",
+		"icon": "https://wiki.teamfortress.com/w/images/thumb/0/0c/Item_icon_Gunboats.png/100px-Item_icon_Gunboats.png",
+        "backpack_icon": "https://wiki.teamfortress.com/w/images/8/88/Backpack_Gunboats.png",
+        "level": "Level 10 Boots",
+        "class": "soldier",
+		"slot": 1,
+		"attributes": [
+			"+ -60% blast damage from rocket jumps"
+		]
+    },
+    {
+        "name": "Battalion's Backup",
+		"icon": "https://wiki.teamfortress.com/w/images/thumb/d/d8/Item_icon_Battalion%27s_Backup.png/100px-Item_icon_Battalion%27s_Backup.png",
+        "backpack_icon": "https://wiki.teamfortress.com/w/images/7/70/Backpack_Battalion%27s_Backup.png",
+        "level": "Level 10 Battle Banner",
+        "class": "soldier",
+		"slot": 1,
+		"attributes": [
+			"+ +20 max health on wearer",
+			"Provides a defensive buff that protects nearby team members from crits, incoming sentry damage by 50% and 35% from all other sources.",
+			"Rage increases through damage done."
+		]
+    },
+    {
+        "name": "Concheror",
+		"icon": "https://wiki.teamfortress.com/w/images/thumb/7/7e/Item_icon_Concheror.png/100px-Item_icon_Concheror.png",
+        "backpack_icon": "https://wiki.teamfortress.com/w/images/a/af/Backpack_Concheror.png",
+        "level": "Level 5 Sashimono",
+        "class": "soldier",
+		"slot": 1,
+		"attributes": [
+			"+ +4 health regenerated per second on wearer",
+			"Provides group speed buff with damage done giving health.",
+			"Gain rage with damage."
+		]
+    },
+    {
+        "name": "Mantreads",
+		"icon": "https://wiki.teamfortress.com/w/images/thumb/6/6a/Item_icon_Mantreads.png/100px-Item_icon_Mantreads.png",
+        "backpack_icon": "https://wiki.teamfortress.com/w/images/a/af/Backpack_Concheror.png",
+        "level": "Level 10 Boots",
+        "class": "soldier",
+		"slot": 1,
+		"attributes": [
+			"+ -75% reduction in push force taken from damage",
+			"+ Deals 3x falling damage to the player you land on",
+			"+ -75% reduction in airblast vulnerability",
+			"+ 200% increased air control when blast jumping."
+		]
+    },
+    {
+        "name": "The Righteous Bison",
+		"icon": "https://wiki.teamfortress.com/w/images/thumb/1/1d/Item_icon_Righteous_Bison.png/100px-Item_icon_Righteous_Bison.png",
+        "backpack_icon": "https://wiki.teamfortress.com/w/images/8/85/Backpack_Righteous_Bison.png",
+        "level": "Level 30 Indivisible Particle Smasher",
+        "class": "soldier",
+		"slot": 1,
+		"attributes": [
+			"+ Does not require ammo",
+			"+ Projectile penetrates enemy targets",
+			"+ Projectile cannot be deflected",
+			"- Deals only 20% damage to buildings"
+		]
+    },
+    {
+        "name": "B.A.S.E Jumper",
+		"icon": "https://wiki.teamfortress.com/w/images/thumb/b/b2/Item_icon_B.A.S.E._Jumper.png/100px-Item_icon_B.A.S.E._Jumper.png",
+        "backpack_icon": "https://wiki.teamfortress.com/w/images/e/e3/Backpack_B.A.S.E._Jumper.png",
+        "level": "Level 1 Parachute",
+        "class": "soldier",
+		"slot": 1,
+		"attributes": [
+			"Press 'JUMP' key in the air to deploy.",
+			"Deployed Parachutes slow your descent."
+		]
+    },
+    {
+        "name": "Panic Attack",
+		"icon": "https://wiki.teamfortress.com/w/images/thumb/b/be/Item_icon_Panic_Attack.png/100px-Item_icon_Panic_Attack.png",
+        "backpack_icon": "https://wiki.teamfortress.com/w/images/b/b1/Backpack_Panic_Attack.png",
+        "level": "Level 1 Shotgun",
+        "class": "soldier",
+		"slot": 1,
+		"attributes": [
+			"+ +50% bullets per shot",
+			"+ This weapon deploys 50% faster",
+			"+ Fires a fixed shot pattern",
+			"- -20% damage penalty",
+			"- Successive shots become less accurate"
+		]
+    }
+]

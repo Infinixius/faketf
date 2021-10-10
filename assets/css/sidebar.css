@@ -1,0 +1,124 @@
+#sidebar {
+	top: 0;
+	left: 0;
+	position: absolute;
+
+	text-align: left;
+
+	width: 20%;
+	height: 100%;
+	overflow-y: auto;
+
+	background-color: #020202;
+	color: white;
+}
+
+#popup, #input, #preset {
+	background-color: #1a1a1a;
+	color: white;
+
+	border-radius: 10px;
+
+	position: fixed;
+
+	padding-left: 2%;
+	padding-right: 2%;
+
+	width: 25%;
+	height: 25%;
+}
+
+#input {
+	width: 50%;
+	height: 30vw;
+}
+
+.inputgroup { 
+	position: relative; 
+	margin-bottom: 5%;
+}
+
+.input_editor {
+	background-color: #202020;
+	width: 100%;
+	margin-left: 0%;
+	padding: 1% 1% 1% 1%;
+	height: 42%;
+}
+
+.input_button {
+	margin-left: 0%;
+	width: 100%;
+	height: 10%;
+}
+
+option {
+	background-color: black;
+}
+
+button {
+	font-size: 1.25vw;
+	padding: 5% 5% 5% 5%;
+	margin-left: 5%;
+	display: block;
+	width: 85%;
+	border: none;
+	border-bottom: 1px solid #757575;
+
+	background-color: transparent;
+	color:rgb(83, 83, 83);
+
+	font-family: 'Nunito', sans-serif;
+}
+
+input, select, textarea {
+	font-size: 1.25vw;
+	padding: 5% 5% 5% 5%;
+	margin-left: 5%;
+	display: block;
+	width: 85%;
+	border: none;
+	border-bottom: 1px solid #757575;
+
+	background-color: transparent;
+	color:#999;
+
+	font-family: 'Nunito', sans-serif;
+
+	resize: none;
+}
+
+#label {
+	font-size: 1.75vw;
+	margin-left: 5%;
+	margin-bottom: 0%;
+}
+
+#link {
+	font-size: 1vw;
+	margin-left: 5%;
+	margin-bottom: 0%;
+	color: white;
+}
+
+#preset {
+	height: 32vw;
+}
+
+.preset_list {
+	height: 18vw;
+	background-color: #202020;
+	overflow-y: auto;
+}
+
+.preset_image {
+	width: 25%;
+}
+
+.preset_text {
+	float: right;
+}
+
+.preset_weapon {
+	margin-bottom: 10%;
+}

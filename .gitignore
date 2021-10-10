@@ -1,0 +1,8 @@
+express.js
+package-lock.json
+package.json
+
+scripts/
+node_modules/
+assets/data/items_game.txt
+assets/data/itemschema.json

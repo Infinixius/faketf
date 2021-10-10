@@ -1,0 +1,158 @@
+#steam_inventory {
+	border: 0.2vw solid;
+	border-color: rgb(125, 109, 0);
+	position: absolute;
+
+	left: 21%;
+	width: 25%;
+	
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-color: #1d1d1d;
+	background-image: url('../images/steam_inventory_background.png');
+	background-size: contain;
+	max-width: 100%;
+
+	min-height: 75%;
+
+	font-family: "Motiva Sans", Sans-serif;
+}
+
+#steam_inventory_close {
+	position: absolute;
+	right: -12px;
+	top: -15px;
+	height: 30px;
+	width: 	30px;
+	border: 3px solid #cccccc;
+	color: #cccccc;
+	text-align: center;
+	line-height: 30px;
+	background: #000000;
+	border-radius: 20px;
+	font-size: 20px;
+	cursor: pointer;
+}
+
+#steam_inventory_icon {
+	position: absolute;
+	
+	width: 60%;
+
+	left: 8px;
+	top: 8px;
+	right: 8px;
+}
+
+#steam_inventory_description {
+	padding: 60% 11px 11px 11px;
+	padding-right: 8px;
+}
+
+#steam_inventory_title {
+	color: rgb(125, 109, 0);
+
+	font-size: 1.8vw;
+	font-weight: normal;
+
+	margin-bottom: 0%;
+
+	font-family: "Motiva Sans", sans-serif;
+	font-weight: 300;
+}
+
+#steam_inventory_game {
+	position: relative;
+	color: #767676;
+	margin-top: 1%;
+
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+
+	font-size: 14px;
+}
+
+#steam_inventory_game_text {
+	margin-left: 12%;
+	font-size: 1vw;
+}
+
+#steam_inventory_game_type {
+	margin-top: 0px;
+}
+
+#steam_inventory_game_icon {
+	position: absolute;
+	left: 0;
+	top: 0;
+
+	min-width: 10%;
+	max-width: 10%;
+	min-height: 10%;
+	max-height: 100%;
+}
+
+#steam_inventory_stats {
+	color: #b4b4b4;
+	font-size: 1vw;
+	margin: 0px;
+}
+
+.attribute, #unusual_tag {
+	margin: 0px;
+}
+
+.steam_inventory_button {
+	border-radius: 2px;
+	border: none;
+	padding: 0.25%;
+	display: inline-block;
+	cursor: pointer;
+	text-decoration: none !important;
+	color: #fff !important;
+
+	height: 1.5vw;
+	width: 10.5vw;
+	
+	background: linear-gradient( to bottom, #778088 5%, #414a52 95%);
+	border-radius: 2px;
+
+	margin-top: 5px;
+	margin-right: 12px;
+	margin-bottom: 16px;
+}
+
+.steam_inventory_button_text {
+	padding-right: 10%;
+	padding-left: 10%;
+	font-size: 1vw;
+}
+
+.positive {
+	color: rgb(126, 169, 209);
+}
+
+.negative {
+	color: rgb(216, 54, 54);
+}
+
+.title {
+	color: rgb(225, 225, 15);
+}
+
+.description {
+	color: rgb(139, 137, 137);
+}
+
+.descriptor {
+	color: rgb(0, 160, 0);
+}
+
+.strange_part {
+	color: rgb(117, 107, 94);
+}
+
+#steam_inventory_tags {
+	color: rgb(143, 152, 160);
+}

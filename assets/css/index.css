@@ -1,0 +1,27 @@
+body {
+	font-family: 'Nunito', sans-serif;
+	background-color: #0c0c0c;
+
+	color: white;
+	overflow: hidden;
+}
+
+a {
+	color: white;
+}
+
+#footer {
+	background-color: transparent;
+	font-size: 0.75vw;
+	text-align: right;
+	
+	height: 1vw;
+	width: 85vw;
+
+	padding-top: 0.25%;
+	padding-left: 1%;
+
+	right: 0.5vw;
+	bottom: 0;
+	position: absolute;
+}

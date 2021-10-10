@@ -1,0 +1,122 @@
+<html>
+	<head>
+		<title>faketf - make custom or fake items for Team Fortress 2</title>
+		<meta name="description" content="An editor for making custom or fake items for Team Fortress 2.">
+		<meta name="keywords" content="client-side, opensource, open-source, tf2, tf, teamfortress2, teamfortress, inventory, items, steam, itemeditor, item_editor, item-editor, item editor, editor">
+		<meta name="author" content="infinixius">
+
+		<meta name="viewport" content="width=device-width,initial-scale=1">
+		<meta charset="UTF-8">
+
+		<link rel="shortcut icon" type="image/x-icon" href="./favicon.ico"/>
+		<link rel="icon" href="favicon.ico" type="./favicon.ico"/>
+
+		<link rel="stylesheet" href="assets/css/index.css">
+		<link rel="stylesheet" href="assets/css/sidebar.css">
+		<link rel="stylesheet" href="assets/css/steam_inventory.css">
+
+		<link rel="stylesheet" href="assets/fonts/nunito.css">
+		<link rel="stylesheet" href="assets/fonts/motiva_sans.css">
+	</head>
+	<body>
+		<div id="sidebar" class="scroll">
+			<h2 id="label">Name</h2>
+			<div class="inputgroup">
+				<input type="text" id="input_name" default="Degreaser">
+				<a href="#" id="link">Load preset</a>
+			</div>
+			
+			<h2 id="label">Level</h2>
+			<div class="inputgroup">
+				<input type="text" id="input_level" default="10">
+			</div>
+
+			<h2 id="label">Type</h2>
+			<div class="inputgroup">  
+				<input type="text" id="input_type" default="Flame Thrower">
+			</div>
+
+			<h2 id="label">Icon</h2>
+			<div class="inputgroup">
+				<input type="text" id="input_icon" default="https://wiki.teamfortress.com/w/images/f/fa/Backpack_Degreaser.png">
+			</div>
+
+			<h2 id="label">Quality</h2>
+			<div class="inputgroup">
+				<select name="qualities" id="input_quality" default="Unique">
+					<option value="Normal">Normal</option>
+					<option value="Unique">Unique</option>
+					<option value="Vintage">Vintage</option>
+					<option value="Genuine">Genuine</option>
+					<option value="Strange">Strange</option>
+					<option value="Strange Unusual">Strange Unusual</option>
+					<option value="Unusual">Unusual</option>
+					<option value="Haunted">Haunted</option>
+					<option value="Collector's">Collector's</option>
+					<option value="Decorated">Decorated</option>
+					<option value="Community">Community</option>
+					<option value="Self-Made">Self-Made</option>
+					<option value="Valve">Valve</option>
+				</select>
+			</div>
+
+			<div class="inputgroup" id="disableunusual">
+				<h2 id="label">Unusual Effect</h2>
+				<input type="text" id="input_unusual" default="">
+			</div>
+
+			<div class="inputgroup" id="disablestrange">
+				<h2 id="label">Strange Kills</h2>
+				<input type="text" id="input_kills" default="0">
+			</div>
+
+			<h2 id="label">Attributes</h2>
+			<div class="inputgroup">
+				<button id="input_attributes">Edit</button>
+			</div>
+
+			<h2 id="label">Tags</h2>
+			<div class="inputgroup">
+				<input type="text" id="input_tags" default="Primary weapon, Pyro, Tradable, Not Marketable">
+			</div>
+		</div>
+
+		<div id="steam_inventory">
+			<img id="steam_inventory_icon" src="" default="assets/images/weapons/degreaser.png">
+			<div id="steam_inventory_description">
+				<h1 id="steam_inventory_title">The Degreaser</h1>
+				<div id="steam_inventory_game">
+					<img id="steam_inventory_game_icon" src="" default="assets/images/tf_logo.jpg">
+					<div id="steam_inventory_game_text">
+						Team Fortress 2<br>
+						<p id="steam_inventory_game_type">Level 10 Flame Thrower</p>
+					</div>
+				</div>
+				<div id="steam_inventory_stats">
+					<p class="attribute positive"> This weapon deploys 60% faster</p>
+					<p class="attribute positive"> This weapon holsters 30% faster</p>
+					<p class="attribute positive"> Extinguishing teammates restores 20 health</p>
+					<p class="attribute negative"> -66% afterburn damage penalty</p>
+					<p class="attribute negative"> +25% airblast cost</p>
+
+					<a class="steam_inventory_button">
+						<span class="steam_inventory_button_text">Item Wiki Page...</span>
+					</a>
+					<a class="steam_inventory_button">
+						<span class="steam_inventory_button_text">Inspect in Game...</span>
+					</a>
+					<br>
+					<p id="steam_inventory_tags">Tags: Unique, Primary weapon, Pyro, Tradable, Not Marketable</p>
+				</div>
+				
+				<div id="steam_inventory_close">X</div>
+			</div>
+		</div>
+
+		<div id="footer">
+			Made with <3 by <a href="https://infinixius.github.io">infinixius</a> • Leave a star on <a href="https://github.com/infinixius/faketf">GitHub!</a> • v1.0
+		</div>
+
+		<script type="module" type="text/javascript" src="assets/js/index.js"></script>
+	</body>
+</html>
