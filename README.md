@@ -1,8 +1,12 @@
+## ARCHIVED: I no longer have any interest in working on this. You are welcome to fork and continue development.
+
+---
+
 # faketf
 
 faketf is an online web app that allows you to create fake and custom items for [Team Fortress 2](https://teamfortress.com).
 
-You can find it [https://infinixius.github.io/faketf](https://infinixius.github.io/faketf)
+~~You can find it [https://infinixius.github.io/faketf](https://infinixius.github.io/faketf)~~
 
 ## To-Do
 
